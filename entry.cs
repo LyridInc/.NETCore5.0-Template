@@ -16,7 +16,7 @@ namespace YOUR_APP_NAME.YOUR_MODULE_NAME
         public string OutputSample { get; set; }
     }
 
-    class $FUNCTION_NAME
+    class YOUR_FUNCTION_NAME
     {
         // PreRun (optional) will be executed prior to Run()
         public static void PreRun()

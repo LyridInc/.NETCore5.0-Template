@@ -8,15 +8,15 @@ namespace YOUR_APP_NAME.YOUR_MODULE_NAME
         {
             dotenv.net.DotEnv.Config(false);
 
-            $FUNCTION_NAME.PreRun();
+            YOUR_FUNCTION_NAME.PreRun();
 
             var defaultFunctionInput = new LyFnInputParams { InputSample = "Hello" };
-            var defaultFunctionOutput = $FUNCTION_NAME.Run(defaultFunctionInput);
+            var defaultFunctionOutput = YOUR_FUNCTION_NAME.Run(defaultFunctionInput);
 
             Console.WriteLine("Function Input: " + defaultFunctionInput.InputSample);
             Console.WriteLine("Function Output: " + defaultFunctionOutput.OutputSample);
 
-            $FUNCTION_NAME.PostRun();
+            YOUR_FUNCTION_NAME.PostRun();
         }
     }
 }

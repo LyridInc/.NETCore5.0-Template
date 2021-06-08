@@ -6,6 +6,6 @@ modules:
   language: dotnetcore5.0
   description: Module description
   functions:
-  - name: $FUNCTION_NAME
+  - name: YOUR_FUNCTION_NAME
     entry: entry.cs
     description: the entry point for the function
