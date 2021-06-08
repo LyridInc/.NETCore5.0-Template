@@ -1,0 +1,11 @@
+name: YOUR_APP_NAME
+description: App Description
+ignoreFiles: .git bin obj
+modules:
+- name: YOUR_MODULE_NAME
+  language: dotnetcore5.0
+  description: Module description
+  functions:
+  - name: $FUNCTION_NAME
+    entry: entry.cs
+    description: the entry point for the function
